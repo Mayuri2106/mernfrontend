@@ -1,0 +1,96 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: white;
+    min-height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+  }
+  
+  .logoutButton {
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+    background: none;
+    border: none;
+    color: red;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  .logoutButton svg {
+    margin-right: 8px;
+  }
+  
+  .formContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+  }
+  
+  .formContainer h1 {
+    margin-bottom: 20px;
+  }
+  
+  .formContainer form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .inputField {
+    background: #1F1F23;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 10px;
+    padding-left: 50px;
+    margin-bottom: 20px;
+    color: white;
+    width: 300px;
+    
+  }
+  
+  .updateButton {
+    background-color: blue;
+    border: 1px solid grey;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+ 
+  
+  .updateButton:hover {
+    background: #2c2cc9;
+  }
+
+
+  .inputWrapper {
+    position: relative;
+    width: 90%;
+    margin-bottom: 16px;
+  }
+  
+  .icon {
+    position: absolute;
+    left: 10px;
+    top: 10%;
+    color: white;
+    padding: 2px;
+  }
+
+  .eye{
+    position: absolute;
+    left: 325px;
+    top: 10%;
+    color: white;
+    padding: 2px;
+  }
+  

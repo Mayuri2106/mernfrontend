@@ -1,0 +1,83 @@
+.popup {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #ffffff;
+    padding: 16px;
+    position: relative;
+    max-width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 1000; 
+    color: #969494;
+    margin-bottom: 20px;
+    background-color: black;
+    font-size: 12px;
+    margin-left: 350px;
+  }
+  
+  .popupHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    margin-bottom: 12px;
+    align-items: center;
+   
+  }
+  
+  
+  .serialNo {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .closeButton {
+    background: #454545; 
+    border: none;
+    cursor: pointer; 
+    font-size: 15px;
+    color: red;
+    border-radius: 50%; 
+    width: 40px; 
+    height: 40px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
+    position: absolute;
+    left:310px;
+    top:-5px;
+  }
+  
+  .closeButton:hover {
+    color: #666;
+  }
+  
+  .textarea {
+    all:unset;
+   background-color:  #29292c;
+   width: 100%;
+    height: 50px;
+    padding: 10px;
+    border-radius: 6px;
+    resize: vertical;
+    color: #ddd;
+    box-sizing: border-box; 
+  }
+  
+  .textarea:focus {
+    outline: none;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.25); 
+  }
+
+
+  
+  
+.errorBorder {
+  border:1px solid red;
+}
+
+.errorMessage {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}

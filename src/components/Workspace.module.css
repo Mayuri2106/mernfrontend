@@ -1,0 +1,204 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: white;
+  }
+  
+  .header {
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    
+  }
+  
+  .headerForm {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .inputField {
+   width:250px;
+    padding: 5px 10px;
+    margin-right: 10px;
+    border: 1px solid #494848;
+    border-radius: 4px;
+    background-color: #37373E;
+    color:#ddd;
+    
+  }
+  
+  .button{
+    margin-left: 400px;
+    display: flex;
+    gap:10px;
+  }
+
+  .btn ,.btn2{
+    all: unset;
+    background-color: black;
+    color: white;
+    padding: 6px;
+    border-radius: 4px;
+    
+  }
+
+  .btn2share{
+    background-color: rgb(100, 95, 95);
+    width:50px;
+    text-align: center;
+  }
+  
+  .btn2save{
+    background-color: green;
+    width:50px;
+    text-align: center;
+  }
+
+  .icon{
+    color:red;
+  }
+
+  .icon2{
+    color:rgb(51, 51, 208);
+    margin-right: 4px;
+  }
+  .icon3{
+    color:#FFA54C;
+    margin-right:4px;
+  }
+
+
+.btn:hover,.highlight{
+    border: 2px solid blue;
+    border-radius: 4px;
+    color: blue;
+}
+
+
+  
+
+  
+  .mainContent {
+    display: flex;
+   background-color: white;
+    padding:20px;
+    height: 100vh;
+  }
+
+  .inputButtonmiddle{
+    all:unset;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #1a1a1c;
+    color: #ddd;
+    width:200px;
+    margin-left: 400px;
+    margin-bottom: 10px;
+  }
+
+
+  .verticalBox {
+    width: 250px;
+    background-color: black;
+    padding: 20px;
+    border: 1px solid #37373E;
+   height:630px;
+   color: #ddd;
+   border-radius: 4px;
+   font-size: 10px;
+  }
+  
+  .verticalBox h2 {
+    margin-bottom: 10px;
+  }
+  
+  .bubbleButtons,
+  .inputButtons {
+    margin-bottom: 20px;
+    display: flex;
+    gap:10px;
+    flex-wrap: wrap;
+  }
+  
+  .bubbleButton,
+  .inputButton {
+    display: flex;
+    align-items: center;
+    width: 48%;
+    padding: 10px;
+    background-color: #37373E;
+    color: white;
+    border:1px solid rgb(73, 71, 71);
+    border-radius: 4px;
+    cursor: pointer;
+    justify-content: center;
+    
+  }
+  
+  .bubbleButton .icon,
+  .inputButton .icon {
+    margin-right: 5px;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .themeImage {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+
+  .themeImg{
+    width: 70%;
+    margin-bottom: 20px;
+  }
+
+  .themeImage:hover{
+    border:3px solid blue;
+    border-radius:4px;
+
+  }
+  .selectedThemeImage {
+    border: 3px solid blue;
+    border-radius: 4px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+.btn2shareActive {
+  background-color: blue; /* Color when active */
+}
+
+.popup {
+  position: absolute;
+  top: 70px; /* Adjust to position below header */
+  left: 85%;
+  transform: translateX(-50%);
+  background-color: black;
+  border: 1px solid blue;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #ddd;
+}
+
+.checkIcon {
+  color: blue;
+}

@@ -1,0 +1,236 @@
+/* Base Styles */
+.chatViewContainer {
+  padding: 100px ;
+  background-color: #fff9f9;
+  height:100vh;
+}
+
+.chatMessages {
+  margin-top: 0;
+}
+
+.shouldShowImage {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.leftAlign {
+  text-align: left;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.rightAlign {
+  text-align: right;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.chatViewContainer h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.textInputWrapper,
+.dateInputWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.inputContainer,
+.dateInputContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 20%;
+}
+
+
+
+.textInput,
+.dateInput {
+  padding: 5px;
+  font-size: 16px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.sendIcon {
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.disabledText {
+  background-color: lightgray;
+  padding: 5px;
+  font-size: 16px;
+  color: gray;
+  border-radius: 5px;
+  width: 20%;
+}
+
+.buttonBox {
+  display: inline-block;
+  padding: 10px 30px 10px 10px;
+  cursor: pointer;
+  text-align:left;
+
+  border-radius: 5px;
+  font-size: 16px;
+  width:10px;
+}
+
+.unclickedButton {
+  background-color: blue;
+  color: white;
+}
+
+.clickedButton {
+  background-color: #FF8E21;
+  color: white;
+}
+
+.ratingWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.ratingContainer {
+  display: flex;
+  margin-right: 10px;
+}
+
+.ratingButton {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: blue;
+  color: white;
+  border: none;
+  margin: 0 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.ratingButton:hover {
+  background-color:  #FF8E21;
+
+}
+
+.selectedRating {
+  background-color: #FF8E21;
+}
+
+.disabledRating {
+  background-color: lightgray;
+  color: gray;
+  cursor: not-allowed;
+}
+
+.mediaContent {
+  width: 20%;
+  height: auto;
+  margin: 5px 0;
+}
+
+.sendIcon {
+  cursor: pointer;
+  font-size: 5px;
+  background-color: blue;
+  color: white;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s;
+}
+
+.sendIcon.disabled {
+  background-color: grey;
+  cursor: not-allowed;
+}
+
+
+
+
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .chatViewContainer {
+    padding: 20px;
+  }
+
+  .inputContainer {
+    width: 100%;
+  }
+
+  .textInput,
+  .dateInput,
+  .buttonBox {
+    width: calc(100% - 10px);
+  }
+
+  .mediaContent {
+    width: 100%;
+  }
+
+  .sendIcon {
+    font-size: 16px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .chatViewContainer h2 {
+    font-size: 20px;
+  }
+
+  .ratingButton {
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
+  }
+
+  .shouldShowImage {
+    width: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .chatViewContainer {
+    padding: 10px;
+  }
+
+  .textInput,
+  .dateInput,
+  .buttonBox {
+    font-size: 14px;
+  }
+
+  .mediaContent {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .sendIcon {
+    font-size: 14px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .ratingButton {
+    width: 25px;
+    height: 25px;
+    font-size: 12px;
+  }
+
+  .shouldShowImage {
+    width: 15px;
+  }
+}
