@@ -48,7 +48,7 @@ const SettingsPage = () => {
     }
   
     try {
-      const response = await fetch('https://mernappbackend-iui9.onrender.com/update', {
+      const response = await fetch('https://mernapp-v7s9.onrender.com/update', {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',

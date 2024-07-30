@@ -40,7 +40,7 @@ const LoginForm = ({ toggleForm }) => {
 
     if (Object.keys(newErrors).length === 0) {
       try {
-        const response = await fetch('https://mernappbackend-iui9.onrender.com/login', {
+        const response = await fetch('https://mernapp-v7s9.onrender.com/login', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',

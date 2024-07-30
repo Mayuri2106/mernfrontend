@@ -9,7 +9,7 @@ const CreateFolderPopup = ({ onClose, onCreate }) => {
     if (folderName.trim()) {
       try {
         const token = localStorage.getItem('token');
-        const response = await fetch('https://mernappbackend-iui9.onrender.com/folder', {
+        const response = await fetch('https://mernapp-v7s9.onrender.com/folder', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',

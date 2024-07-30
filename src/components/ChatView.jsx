@@ -51,7 +51,7 @@ const ChatView = () => {
   useEffect(() => {
     const id = searchParams.get('id');
     if (id) {
-      fetch(`https://mernappbackend-iui9.onrender.com/chat/${id}`)
+      fetch(`https://mernapp-v7s9.onrender.com/chat/${id}`)
         .then((response) => {
           if (!response.ok) {
             throw new Error(`HTTP error! Status: ${response.status}`);
@@ -89,7 +89,7 @@ const ChatView = () => {
   useEffect(() => {
     const id = searchParams.get('id');
     if (id) {
-      fetch(`https://mernappbackend-iui9.onrender.com/chat/${id}/interact`, {
+      fetch(`https://mernapp-v7s9.onrender.com/chat/${id}/interact`, {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',
@@ -142,7 +142,7 @@ const ChatView = () => {
       value: response,
     });
 
-    fetch(`https://mernappbackend-iui9.onrender.com/chat/${chatId}/response`, {
+    fetch(`https://mernapp-v7s9.onrender.com/chat/${chatId}/response`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

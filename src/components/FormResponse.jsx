@@ -13,7 +13,7 @@ const FormResponse = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch(`https://mernappbackend-iui9.onrender.com/formresponse/${id}`);
+        const response = await fetch(`https://mernapp-v7s9.onrender.com/formresponse/${id}`);
         
         if (!response.ok) {
           throw new Error(`HTTP error! Status: ${response.status}`);

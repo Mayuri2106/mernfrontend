@@ -11,7 +11,7 @@ const DashboardHeader = ({ username, dropdownOpen, toggleDropdown }) => {
 
   const handleLogout = async () => {
     try {
-      await fetch('https://mernappbackend-iui9.onrender.com/logout', {
+      await fetch('https://mernapp-v7s9.onrender.com/logout', {
         method: 'POST',
         headers: {
           'x-auth-token': localStorage.getItem('token'),

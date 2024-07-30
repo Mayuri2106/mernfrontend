@@ -45,7 +45,7 @@ const SignupForm = ({ toggleForm }) => {
 
     if (Object.keys(newErrors).length === 0) {
       try {
-        const response = await fetch('https://mernappbackend-iui9.onrender.com/signup', {
+        const response = await fetch('https://mernapp-v7s9.onrender.com/signup', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
